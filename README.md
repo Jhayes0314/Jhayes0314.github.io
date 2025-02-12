@@ -8,6 +8,7 @@ This repository will hold all my assignments
 [Radio Garden](https://radio.garden)- This is used to discover what radio stations are playing around the world!
 [National Archives](https://www.archives.gov)- Used to look up historical documents along with service members records which I will be using for my family tree.
 
+```mermaid
 flowchart TD
   Start([Start]) -->|Generate Random Number| GenerateNum
   GenerateNum --> |Prompt User for Input| GetInput
