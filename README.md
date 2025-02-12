@@ -10,7 +10,7 @@ This repository will hold all my assignments
 
 ```mermaid
 flowchart TD
-  Start([Start]) -->|Generate Random Number| GenerateNum
+  Start[[Start]] -->|Generate Random Number| GenerateNum
   GenerateNum --> |Prompt User for Input| GetInput
   GetInput -->|Validate Input| CheckInput
   CheckInput -->|Invalid (Non-Numeric)| ErrorMsg
@@ -21,7 +21,7 @@ flowchart TD
   CompareNum -->|Guess Too High| TooHigh
   TooHigh -->|Prompt User Again| GetInput
   CompareNum -->|Correct Guess| CorrectMsg
-  CorrectMsg --> End([End])
+  CorrectMsg --> End[[End]]
 ```
 
 ## Description
