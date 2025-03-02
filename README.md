@@ -8,3 +8,5 @@ This repository will hold all my assignments
 [Radio Garden](https://radio.garden)- This is used to discover what radio stations are playing around the world!
 [National Archives](https://www.archives.gov)- Used to look up historical documents along with service members records which I will be using for my family tree.
 
+git add lesson7.html
+git commit -m "Added lesson 7.html file"
