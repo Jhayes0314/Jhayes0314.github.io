@@ -9,4 +9,3 @@ This repository will hold all my assignments
 [National Archives](https://www.archives.gov)- Used to look up historical documents along with service members records which I will be using for my family tree.
 
 git add lesson7.html
-git commit -m "Added lesson 7.html file"
