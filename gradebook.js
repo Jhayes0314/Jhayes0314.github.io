@@ -51,6 +51,6 @@ function populateGradebook(data) {
 }
 // TODO REMOVE THIS
 // Call the stubs to demonstrate the workflow
-const gradeData = fetchGradeData();
+const gradeData = fetchgradeData();
 populateGradebook(gradeData);
 // END REMOVE
