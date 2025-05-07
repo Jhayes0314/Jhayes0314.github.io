@@ -13,7 +13,7 @@ function fetchGradeData() {
       if(xhr.readystate === xhr.done){
             // Check if we're successful
             if(xhr.status !== 200){
-                console.error('Could not get grades.
+                console.error'Could not get grades.
                     Status: ${xhr.status}');
             }
             // And then call the function to update the HTML with our data
