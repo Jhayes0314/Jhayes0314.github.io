@@ -49,7 +49,7 @@ function populateGradebook(data) {
              // Add the row to the table itself to make the data visible
              tableElm.appendChild(row);
          });
-
+}
 // TODO REMOVE THIS
 // Call the stubs to demonstrate the workflow
 const gradeData = fetchGradeData();
