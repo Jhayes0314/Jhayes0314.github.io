@@ -1,11 +1,11 @@
 // TODO: Fetch data from the PostgreSQL database (to be implemented later)
 function fetchGradeData() {
     // This function will query the PostgreSQL database and return grade data
-    console.log("Feteching grade data...");
+    console.log("Fetching grade data...");
     //Create a new request for the HTTP data
     let xhr = new XMLHttpRequest();
     // This is the address on the machine we're asking for data
-    let apiroute = "/api/grades";
+    let apiRoute = "/api/grades";
     //When the request changes status we run this anonymous function
     xhr.onreadystatechange = function(){
     let results;
