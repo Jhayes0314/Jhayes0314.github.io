@@ -42,13 +42,13 @@ function populateGradebook(data) {
                  // Just put the name in the text, you could be fancy and figure out the letter grade here
                  // with either a bunch of conditions, or a JavaScript "switch" statement
                  document.createTextNode(assignment.total_grade)
-            );
+             );
              // Add the table data columns to the table row
              row.appendChild(columns.name);
              row.appemdChild(columns.grade);
              // Add the row to the table itself to make the data visible
              tableElm.appendChild(row);
-  });
+         });
 
 // TODO REMOVE THIS
 // Call the stubs to demonstrate the workflow
