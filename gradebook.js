@@ -8,9 +8,9 @@ function fetchGradeData() {
     let apiroute = "/api/grades";
     //When the request changes status we run this anonymous function
     xhr.onreadystatechange = function(){
-        let results;
-       //Check if we're done
-        if(xhr.readystate === xhr.done){
+    let results;
+      //Check if we're done
+      if(xhr.readystate === xhr.done){
             // Check if we're successful
             if(xhr.status !== 200){
                 console.error('Could not get grades.
@@ -18,7 +18,7 @@ function fetchGradeData() {
             }
             // And then call the function to update the HTML with our data
             populateGradebook(JSON.parse(xhr.responseText));
-        }
+            }
     }.bind(this);
     xhr.open("get", apiRoute, true);
     xhr.send();
