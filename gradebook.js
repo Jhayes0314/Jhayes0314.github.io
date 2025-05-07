@@ -23,7 +23,6 @@ function fetchGradeData() {
     xhr.open("get", apiRoute, true);
     xhr.send();
 }
-
 // TODO: Populate the table with grade data
 function populateGradebook(data) {
      // This function will take the fetched grade data and populate the table
@@ -48,7 +47,7 @@ function populateGradebook(data) {
              row.appendChild(columns.grade);
              // Add the row to the table itself to make the data visible
              tableElm.appendChild(row);
-         });
+        });
 }
 // TODO REMOVE THIS
 // Call the stubs to demonstrate the workflow
